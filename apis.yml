@@ -1,8 +1,26 @@
 aid: inframarket
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/inframarket.png
 name: Infra.Market
-description: 'Infra.Market is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Infra.Market is a technology-enabled building materials platform serving India''s
+  construction and real estate sectors across the entire project lifecycle. Operating as a house
+  of brands, it supplies concrete, aggregates, steel, AAC blocks, plywood, tiles, sanitaryware,
+  paints, plumbing, modular kitchens, hardware, electricals, appliances, and rental equipment
+  through both B2B (direct corporate sales with site delivery) and B2R (retail via dealers and
+  distributors across 17,000+ touchpoints). It is backed by 280+ manufacturing facilities across
+  22 Indian states under brands including Shalimar Paints, RDC, IVAS, Robo, and Ultrafine, and is
+  headquartered in Thane, Maharashtra. Added to the API Evangelist network as an Accel portfolio
+  company; no public developer API surface has been identified to date.'
 url: https://raw.githubusercontent.com/api-evangelist/inframarket/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ecommerce
+- Construction
+- Building Materials
+- Manufacturing
+- Marketplace
+- B2B
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.infra.market
+  url: https://www.infra.market
+- type: VulnerabilityDisclosure
+  url: security/inframarket-vulnerability-disclosure.yml
+- type: Security
+  url: https://infra.market/vulnerability-disclosure/
+- type: DomainSecurity
+  url: security/inframarket-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
