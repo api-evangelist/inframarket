@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/inframarket/integrations
+- https://zapier.com/apps/infra-market/integrations
+- https://n8n.io/integrations/inframarket/
+- https://composio.dev/toolkits/inframarket
+- https://monid.ai/tools/inframarket
+checked:
+- https://composio.dev/toolkits/inframarket
+- https://monid.ai/tools/inframarket
+- https://n8n.io/integrations/inframarket/
+- https://zapier.com/apps/infra-market/integrations
+- https://zapier.com/apps/inframarket/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
